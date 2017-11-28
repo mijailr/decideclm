@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Decidim.configure do |config|
-  config.application_name = "My Application Name"
-  config.mailer_sender = "change-me@domain.org"
+  config.application_name = "Decide Castilla La Mancha"
+  config.mailer_sender = "no-reply@alabs.org"
   config.authorization_handlers = ["ExampleAuthorizationHandler"]
 
   # Change these lines to set your preferred locales
-  config.default_locale = :en
-  config.available_locales = [:en, :ca, :es]
+  config.default_locale = :es
+  config.available_locales = [:es]
 
   # Geocoder configuration
   # config.geocoder = {
