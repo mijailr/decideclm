@@ -8,6 +8,7 @@ gem "decidim", "0.7.4"
 
 # Uncomment the following line if you want to use decidim-assemblies plugin
 # gem "decidim-assemblies", "0.7.4"
+gem "decidim-results", path: "decidim-results"
 
 gem "puma", "~> 3.0"
 gem "uglifier", ">= 1.3.0"
