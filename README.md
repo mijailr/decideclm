@@ -4,9 +4,17 @@ Citizen Participation and Open Government application.
 
 This is the open-source repository for DecideCLM, based on [Decidim](https://github.com/decidim/decidim).
 
+## Developing the app
+
+```
+git clone https://github.com/alabs/decideclm
+cd decideclm
+docker-compose up -d
+```
+
 ## Deploying the app
 
-An opinionated guide to deploy this app to Heroku can be found at [https://github.com/codegram/decidim-deploy-heroku](https://github.com/codegram/decidim-deploy-heroku).
+cap staging deploy
 
 ## Setting up the application
 
