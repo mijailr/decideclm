@@ -6,6 +6,7 @@ ruby RUBY_VERSION
 
 gem "decidim", "0.7.4"
 
+gem "decidim-debates", path: "decidim-debates"
 # Uncomment the following line if you want to use decidim-assemblies plugin
 # gem "decidim-assemblies", "0.7.4"
 
